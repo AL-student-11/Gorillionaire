@@ -1,0 +1,193 @@
+body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center; /* Centers the text in its OWN element div */
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center; /* Horizontal cenetering */
+	align-items: center; /* Vertical centering */
+	height: 100vh;
+	background: url("../pics/gorillion_background_faded.png") no-repeat center center fixed;
+	background-size: contain;
+	background-color: black;
+}
+
+/* Panel on the center of the screen */
+.quiz-panel {
+	background-color: rgba(0, 0, 0, 0.7); /* RGBA, -> alpha = transparency 0-8*/
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+	height: 400px;
+	width: 400px;
+	transform: scale(1.33);
+}
+
+/* Number of the game */
+.question-number {
+	margin: 20px 0;
+	font-size: 24px;
+	font-weight: bold;
+	color: beige;
+}
+
+/* Header for the game-panel */
+.question-text {
+	margin: 20px 0;
+	font-size: 24px;
+	font-weight: bold;
+	color: beige;
+}
+
+/* Grid inside of the game-panel */
+.question-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.question-grid div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: black;
+	color: yellow;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: normal;
+	width: 150px;
+	height: 50px;
+}
+
+.question-grid div:hover {
+	background-color: rgb(224, 240, 6);
+	color: rgb(0, 174, 26);
+}
+
+.question-grid div:checked {
+	background-color: rgb(220, 240, 6);
+	border-color: rgb(0, 0, 0);
+	color: black;
+}
+
+/* Bananas panel on the left side of the screen */
+.bananas-panel {
+	position: absolute;
+	left: 100px;
+	top: 50%;
+	transform: translateY(-50%) scale(2);
+	padding: 20px;
+	color: rgb(38,239,79);
+	text-align: center;
+	background-image: linear-gradient(to left, rgba(0,0,0,0.3), rgba(0,0,0,0.8));
+	border-radius: 10px;
+}
+
+.bananas-header {
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px #000000, -1px -1px #000000;
+	margin-bottom: 10px;
+	color: rgb(220,225,79);
+}
+
+.bananas-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 3px;
+}
+
+/* Attributes for list items */
+.bananas-list li {
+	font-size: 16px;
+	color: rgb(43, 199, 59);
+	text-shadow: 1px 1px #000000, -1px -1px #000000;
+	text-align: center;
+}
+
+/* Color of the nths item is different */
+.bananas-list li:nth-child(4),
+.bananas-list li:nth-child(7),
+.bananas-list li:nth-child(10) {
+	color: rgb(236, 255, 134);
+}
+
+
+.highscores-panel {
+	position: absolute;
+	right: 100px;
+	top: 50%;
+	transform: translateY(-50%) scale(2);
+	padding: 20px;
+	text-align: center;
+	background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,1));
+	border-radius: 10px;
+}
+
+.highscores-header {
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px #000000, -1px -1px #000000;
+	color: rgb(220,225,79);
+}
+
+.highscores-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 5px;
+}
+
+/* Items in the highscores-list */
+.highscores-list li {
+	font-size: 16px;
+	color: rgb(236, 255, 134);
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	max-width: 220px;
+
+}
+
+.cashout-button {
+	display: inline-block;
+	background-color: rgb(3, 151, 17);
+	color: rgb(220,225,79);
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bolder;
+	margin-top: 50px;
+}
+
+.cashout-button:disabled {
+	opacity: 0.2;
+}
+
+#clear-highscores-hotspot {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 50px;
+	height: 50px;
+	z-index: 9999;
+}
+
+
+

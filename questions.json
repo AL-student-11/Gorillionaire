@@ -1,0 +1,112 @@
+[
+    {
+        "id": 0,
+        "question": "Mikä on jaksollisen järjestelmän ensimmäinen alkuaine?",
+        "choices": [
+            "Vety",
+            "Hiili",
+            "Happi",
+            "Rauta"
+        ],
+        "correctAnswer": "Vety"
+    },
+    {
+        "id": 1,
+        "question": "Mikä on 'Punainen planeetta'?",
+        "choices": [
+            "Merkurius",
+            "Venus",
+            "Maa",
+            "Mars"
+        ],
+        "correctAnswer": "Mars"
+    },
+    {
+        "id": 2,
+        "question": "Kuka maalasi teoksen Mona Lisa?",
+        "choices": [
+            "Vincent van Cogh",
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Claude Monet"
+        ],
+        "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+        "id": 3,
+        "question": "Mikä on maailman suurin valtameri?",
+        "choices": [
+            "Intian valtameri",
+            "Tyyni valtameri",
+            "Atlantin valtameri",
+            "Jäämeri"
+        ],
+        "correctAnswer": "Tyyni valtameri"
+    },
+    {
+        "id": 4,
+        "question": "Kuinka monta maata kuului Euroopan unioniin (vuonna 2026)?",
+        "choices": [
+            "25",
+            "26",
+            "27",
+            "28"
+        ],
+        "correctAnswer": "27"
+    },
+    {
+        "id": 5,
+        "question": "Mikä on kemiallinen merkki hapelle?",
+        "choices": [
+            "H§",
+            "O",
+            "He",
+            "Ox"
+        ],
+        "correctAnswer": "O"
+    },
+    {
+        "id": 6,
+        "question": "Kuka sävelsi yhdeksännen sinfonian (Oodi ilolle)?",
+        "choices": [
+            "Wolfgang Amadeus Mozart",
+            "Ludwig van Beethoven",
+            "Johann Sebastian Bach",
+            "Franz Schubert"
+        ],
+        "correctAnswer": "Ludwig van Beethoven"
+    },
+    {
+        "id": 7,
+        "question": "Mikä on suurin sisäelin ihmiskehossa?",
+        "choices": [
+            "Keuhkot",
+            "Maksa", 
+            "Sydän",
+            "Munuaiset"
+        ],
+        "correctAnswer": "Maksa"
+    },
+    {
+        "id": 8,
+        "question": "Missä kaupungissa järjestettiin kesäolympialaiset vuonna 2012?",
+        "choices": [
+            "Berliini",
+            "Tokio",
+            "Madrid",
+            "Lontoo"
+        ],
+        "correctAnswer": "Lontoo"
+    },
+    {
+        "id": 9,
+        "question": "Mikä on aurinkokuntamme suurin planeetta?",
+        "choices": [
+            "Merkurius",
+            "Venus",
+            "Jupiter",
+            "Saturnus"
+        ],
+        "correctAnswer": "Jupiter"
+    }
+]
